@@ -11,6 +11,13 @@
     flex-direction: column;
 }
 
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
 .home-header {
     display: flex;
     justify-content: space-between;
