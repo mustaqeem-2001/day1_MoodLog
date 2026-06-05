@@ -13,9 +13,7 @@
 
 
 button {
-    color: inherit;
-    -webkit-appearance: none;
-    appearance: none;
+    color: inherit; /* needed to fix colour issue, will cause the text to be blue otherwise */
 }
 
 
