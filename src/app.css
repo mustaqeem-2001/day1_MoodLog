@@ -11,8 +11,6 @@
     flex-direction: column;
 }
 
-
-
 .home-header {
     display: flex;
     justify-content: space-between;
@@ -130,11 +128,7 @@ main {
 
 }
 
-button {
-    color: inherit;
-    -webkit-appearance: none;
-    appearance: none;
-}
+
 
 .mood-item-card {
     padding: 1rem;
@@ -160,8 +154,6 @@ button {
     color: inherit;
 }
 
-
-
 .mood-item > div {
     display: flex;
     justify-content: space-between;
@@ -170,7 +162,6 @@ button {
 .mood-item > div > p {
     font-weight: 600;
 }
-
 
 .mood-item > p {
     margin-top: .5rem;
@@ -184,8 +175,6 @@ button {
     margin-top: 2.0rem;
     text-align: center;
 }
-
-
 
 .home-history-container > div > button {
     border: none;
@@ -204,6 +193,7 @@ button {
     color: #99a1af;
     font-size: .9rem;
 }
+
 
 
 @media (min-width: 344px) {
