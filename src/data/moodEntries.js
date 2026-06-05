@@ -1,0 +1,60 @@
+const moodEntries = [
+  {
+    id: 1,
+    emoji: "😊",
+    label: "Happy",
+    intensity: "Medium",
+    date: "26 May 2026 · 2:30 PM",
+    note: "Had a great meeting, team loved the presentation",
+  },
+  {
+    id: 2,
+    emoji: "😌",
+    label: "Calm",
+    intensity: "Low",
+    date: "25 May 2026 · 7:00 PM",
+    note: "Nice evening walk, feeling centered",
+  },
+  {
+    id: 3,
+    emoji: "😟",
+    label: "Anxious",
+    intensity: "High",
+    date: "25 May 2026 · 9:15 AM",
+    note: "Big deadline coming up, feeling the pressure",
+  },
+  {
+    id: 4,
+    emoji: "🤩",
+    label: "Excited",
+    intensity: "High",
+    date: "24 May 2026 · 6:00 PM",
+    note: "Weekend plans came together perfectly!",
+  },
+  {
+    id: 5,
+    emoji: "😴",
+    label: "Tired",
+    intensity: "Low",
+    date: "23 May 2026 · 11:00 AM",
+    note: "Didn't sleep well, slow morning",
+  },
+  {
+    id: 6,
+    emoji: "😢",
+    label: "Sad",
+    intensity: "Medium",
+    date: "17 May 2026 · 3:00 PM",
+    note: "Quiet day, missed the family gathering",
+  },
+  {
+    id: 7,
+    emoji: "😠",
+    label: "Angry",
+    intensity: "High",
+    date: "25 May 2026 · 3:00 PM",
+    note: "Still single and not married",
+  },
+];
+
+export default moodEntries;

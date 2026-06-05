@@ -1,0 +1,144 @@
+.add-mood-main {
+    max-width: 320px;
+    width: 100%;
+}
+
+.question {
+    white-space: nowrap;
+    font-size: 1.75rem;
+}
+
+.supporting-text {
+    color: #99a1af;
+    font-size: .85rem;
+    margin: .6rem 0 2.5rem;
+}
+
+.emoji-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.emoji-container > button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 75px;
+    max-width: 75px;
+    border-radius: 12px;
+    padding: 1rem 0;
+}
+
+.happy, .sad, .tired, .excited, .calm, .anxious, .angry {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.happy {
+    border-color: #fe9a00;
+    background-color: #fef3c6;
+}
+.angry {
+    border-color: #ffa2a2;
+    background-color: #fef2f2;
+}
+.sad {
+    border-color: #a3b3ff;
+    background-color: #eef2ff;
+}
+.tired {
+    border-color: #cad5e2;
+    background-color: #f8fafc;
+}
+.excited {
+    border-color: #ffb86a;
+    background-color: #fff7ed;
+}
+.calm {
+    border-color: #46ecd5;
+    background-color: #f0fdfa;
+}
+.anxious {
+    border-color: #8ec5ff;
+    background-color: #eff6ff;
+}
+
+
+.intensity-levels-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #f3f4f6;
+}
+
+.section-header {
+    color: #99a1af;
+    font-size: .90rem;
+}
+
+.intensity-levels-container > div {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.intensity-levels-container > div > button {
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    background-color: #fff;
+    border-color: #e5e7eb;
+}
+
+.intensity-levels-container > div > button:hover {
+    background-color: #a768ff;
+    background-color: #a768ff;
+    color: #fff;
+}
+
+
+.note-container {
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #f3f4f6;
+    margin: 1rem 0 2rem;
+
+}
+
+.note-header {
+    display: inline-block;
+    margin: 0 .5rem 1rem 0;
+}
+
+.optional {
+    font-size: .75rem;
+    color: #d1d5dc;
+}
+
+textarea {
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    border-radius: 6px;
+    padding: .5rem;
+}
+
+.save-entry {
+    text-align: center;
+    padding: .5rem 1rem;
+    width: 100%;
+    background-color: #7f22fe;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border-color: #ffffff;
+    font-weight: 700;
+}
+
+main > .date {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}

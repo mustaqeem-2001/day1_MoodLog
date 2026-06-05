@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 1rem 0 1rem 1rem;
+}
+
+
+.fa-arrow-left {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
