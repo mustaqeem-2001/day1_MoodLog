@@ -13,6 +13,7 @@ createRoot(document.getElementById("root")).render(
         <Route index element={<App />} />
         <Route element={<Layout />} >
           <Route path="addMood" element={<AddMood />} />
+          <Route path="moodEntry" element={<MoodEntry />} />
         </Route>
       </Routes>
     </BrowserRouter>

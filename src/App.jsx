@@ -1,11 +1,12 @@
 import moodEntries from "./data/moodEntries.js";
 import Footer from "./components/Footer.jsx";
 import "@fortawesome/fontawesome-free/css/all.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./app.css";
 import "./components/footer.css";
 
   export function getFormattedDate() {
+    
     const date = new Date();
     const today = new Date();
 
@@ -22,7 +23,7 @@ import "./components/footer.css";
   
 
 export default function App() {
-
+  const navigate = useNavigate();
 
   return (
     <>
@@ -66,7 +67,7 @@ export default function App() {
           {
             moodEntries.toReversed().map((mood) => {
               return (
-                <button key={mood.id} className="mood-item-card">
+                <button key={mood.id} className="mood-item-card" onClick={() => navigate("/moodEntry")}>
                   <span>{mood.emoji}</span>
                   <div className="mood-item">
                     <div>
