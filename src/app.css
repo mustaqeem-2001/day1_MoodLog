@@ -81,6 +81,8 @@ main {
 }
 
 
+
+
 .add-mood-container > a {
     width: 100%;
     border-radius: 12px;
@@ -152,6 +154,16 @@ main {
     width: 100%;
 }
 
+.mood-item-card {
+    color: black;
+}
+
+.mood-item-card * {
+    color: inherit;
+}
+
+
+
 .mood-item > div {
     display: flex;
     justify-content: space-between;
@@ -160,9 +172,9 @@ main {
 .mood-item > div > p {
     font-weight: 600;
 }
-.mood-item > div > time {
-    color: #99a1af;
-    font-size: .75rem;
+time {
+    color: #99a1af !important;
+    text-decoration: none !important;
 }
 
 .mood-item > p {
@@ -176,6 +188,12 @@ main {
     justify-content: space-around;
     margin-top: 2.0rem;
     text-align: center;
+}
+
+button {
+    color: inherit;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .home-history-container > div > button {
