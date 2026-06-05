@@ -170,10 +170,7 @@ button {
 .mood-item > div > p {
     font-weight: 600;
 }
-time {
-    color: #99a1af !important;
-    text-decoration: none !important;
-}
+
 
 .mood-item > p {
     margin-top: .5rem;
