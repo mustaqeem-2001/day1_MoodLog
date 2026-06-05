@@ -11,6 +11,21 @@
     flex-direction: column;
 }
 
+
+/* Targets any links automatically injected by mobile browsers */
+a[href^="tel"], 
+a[href^="mailto"],
+span[data-action] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Alternative catch-all if they are wrapped in standard anchor tags */
+p a, li a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .home-header {
     display: flex;
     justify-content: space-between;
