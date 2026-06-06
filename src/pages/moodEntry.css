@@ -1,0 +1,33 @@
+.currentMood-emoji-wrapper {
+    border: 2px solid #fee685;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #fffbeb;
+}
+
+.currentMood-emoji {
+    font-size: 4.4rem;
+}
+
+.currentMood-label {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.currentMood-intensity {
+    padding: .25rem 1rem;
+    border-style: solid;
+    border-color: #973c00;
+    border-width: 0;
+    border-radius: 12px;
+    width: max-content;
+    margin: auto;
+    color: #973c00;
+    background-color: #fee685;
+    font-weight: 600;
+}

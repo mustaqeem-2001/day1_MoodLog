@@ -13,7 +13,7 @@
 
 
 button {
-    color: inherit; /* needed to fix colour issue, will cause the text to be blue otherwise */
+    color: inherit; /* needed to fix colour issue, will cause the text to be blue otherwise, doesn't have to be inherit but must define it. */
 }
 
 

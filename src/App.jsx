@@ -67,7 +67,7 @@ export default function App() {
           {
             moodEntries.toReversed().map((mood) => {
               return (
-                <button key={mood.id} className="mood-item-card" onClick={() => navigate("/moodEntry")}>
+                <button key={mood.id} className="mood-item-card" onClick={() => navigate(`/moodEntry/${mood.id}`)}>
                   <span>{mood.emoji}</span>
                   <div className="mood-item">
                     <div>

@@ -85,7 +85,7 @@ export default function AddMood() {
             <h2 className="section-header note-header">ADD A NOTE</h2>
             <span className="optional">(optional)</span>
 
-            <textarea value={userNote} className="user-input" onChange={(e) => setUserNote(e.target.value)}></textarea>
+            <textarea value={userNote} className="user-input" onChange={(e) => setUserNote(e.target.value)} />
         </section>
 
         <button className="save-entry" onClick={saveData}>Save Entry</button>
