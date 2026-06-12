@@ -31,3 +31,107 @@
     background-color: #fee685;
     font-weight: 600;
 }
+
+.currentMood-date-wrapper {
+    padding: 1rem;
+    border: .8px solid #cccccc;
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 1rem;
+}
+
+.currentMood-date-wrapper > .fa-book-medical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #7f22fe;
+    font-size: 1.25rem;
+    width: 0;
+    height: 0;
+}
+
+.currentMood-logged {
+    color: #99a1af;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .6px;
+}
+
+.currentMood-date {
+    font-weight: 600;
+}
+
+
+.currentMood-note-wrapper {
+    padding: 1rem;
+    border: .8px solid #cccccc;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.currentMood-note-wrapper > h2 {
+    margin-bottom: 1rem;
+    color: #99a1af;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .6px;
+}
+
+.edit-btn, .delete-btn {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+}
+
+.edit-btn {
+    background-color: #7f22fe;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.delete-btn {
+    border-color: #ffc9c9;
+    border-width: 1.6px;
+    color: #fb2c36;
+    background-color: #fff;
+}
+
+.currentMood-label-input,
+.currentMood-intensity-select {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #ccc;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.currentMood-label-input:focus,
+.currentMood-intensity-select:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+.currentMood-intensity-select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.currentMood-intensity-edit-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.currentMood-intensity {
+    text-transform: capitalize;
+}
